@@ -1,27 +1,30 @@
-import { Shovel, Droplets, Home, Truck } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import gravingImg from "@/assets/graving.jpg";
+import dreneringImg from "@/assets/drenering.jpg";
+import tomteutgravingImg from "@/assets/tomteutgraving.jpg";
+import massetransportImg from "@/assets/massetransport.jpg";
 
 const services = [
   {
-    icon: Shovel,
+    image: gravingImg,
     title: "Graving",
     description:
       "Vi utfører alt innen grunnarbeid og graving. Trenger du hjelp ved planering for grunnmur er vi de rette til saken. Vi graver også grøfter for legging av vann- og avløpsrør. Velg oss, og du får en solid aktør innen grunn- og betong!",
   },
   {
-    icon: Droplets,
+    image: dreneringImg,
     title: "Drenering",
     description:
       "God drenering rundt huset hindrer fukt- og kondensskader i grunnmuren. Om du kun isolerer innvendig er faren større for at det oppstår fukt. Vi tar jobben for deg!",
   },
   {
-    icon: Home,
+    image: tomteutgravingImg,
     title: "Tomteutgraving",
     description:
       "Vi graver tomtene for deg! Et bra resultat krever godt grunnarbeid. Vi utfører alltid grunnarbeid i henhold til Norsk Standard og vi har lang erfaring innen faget!",
   },
   {
-    icon: Truck,
+    image: massetransportImg,
     title: "Massetransport",
     description:
       "Vi sørger for at overskuddsmasse etter graving blir fraktet vekk. Vi skaffer også jord, stein og singel ved behov. Ta kontakt for priser.",
@@ -40,12 +43,16 @@ const ServicesSection = () => {
           {services.map((service) => (
             <Card
               key={service.title}
-              className="group border-none shadow-lg hover:shadow-xl transition-shadow bg-card"
+              className="group border-none shadow-lg hover:shadow-xl transition-shadow bg-card overflow-hidden"
             >
+              <div className="h-48 overflow-hidden">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
               <CardContent className="p-8">
-                <div className="w-14 h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-5 group-hover:bg-accent/20 transition-colors">
-                  <service.icon className="h-7 w-7 text-accent" />
-                </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                   {service.title}
                 </h3>
