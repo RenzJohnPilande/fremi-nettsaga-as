@@ -5,13 +5,13 @@ const AboutSection = () => {
     <section id="omoss" className="py-20 bg-secondary">
       <div className="container mx-auto px-4 max-w-3xl text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-8">
-          Welcome to Fremi!
+          Velkommen til Fremi!
         </h2>
         <p className="text-muted-foreground leading-relaxed text-lg mb-8">
-          Fremi performs excavation, and contractor services in the private and food market in Møre og Romsdal and its environs. It's just contacting us about work areas, we're very flexible, and we tailor solutions that are tailored to our customers. All work is done professionally and with very high standards. Materials used are of high quality from well-known product providers. Our strength is trust and focus on best solutions as well as always top quality.
+          Fremi utfører grave-, og entreprenørtjenester innen privat- og næringsmarkedet i Møre og Romsdal og omegn. Det er bare å ta kontakt med oss angående arbeidsområder, vi er svært fleksible, og vi skreddersyr løsninger som er tilpasset våre kunder. Alt arbeid blir utført profesjonelt og med svært høy standard. Materialer som anvendes er av høy kvalitet fra kjente vareleverandører. Vår styrke er er tillit og fokus på beste løsninger samt alltid topp kvalitet.
         </p>
         <p className="text-foreground font-medium text-lg mb-8">
-          Contact us for a nice and non-binding chat!
+          Kontakt oss for en hyggelig og uforpliktende prat!
         </p>
         <Button
           size="lg"

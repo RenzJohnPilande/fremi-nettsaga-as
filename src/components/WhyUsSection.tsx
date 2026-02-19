@@ -3,21 +3,21 @@ import { ShieldCheck, Clock, Handshake } from "lucide-react";
 const features = [
   {
     icon: ShieldCheck,
-    title: "Let professionals do the job",
+    title: "La fagfolk gjøre jobben",
     description:
-      "To ensure that the job is done right, and to avoid surprises it is always best to let professionals do the job.",
+      "For å sikre at jobben gjøres riktig, og for å unngå overraskelser er det alltid best å la fagfolk gjøre jobben",
   },
   {
     icon: Clock,
-    title: "At the agreed time and price",
+    title: "Til avtalt tid og pris",
     description:
-      "We keep what we promise and keep you as a customer up to date at all times.",
+      "Vi holder det vi lover, og holder deg som kunde oppdatert til enhver tid.",
   },
   {
     icon: Handshake,
-    title: "Flexible player",
+    title: "Fleksibel aktør",
     description:
-      "We map the customer's needs and then adapt a solution that both partners are satisfied with.",
+      "Vi kartlegger kundens behov og tilpasser deretter en løsning som begge partner er fornøyd med.",
   },
 ];
 

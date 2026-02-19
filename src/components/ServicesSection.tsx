@@ -21,7 +21,7 @@ const services = [
     image: tomteutgravingImg,
     title: "Tomteutgraving",
     description:
-      "Vi graver tomtene for deg! Et bra resultat krever godt grunnarbeid. Vi utfører alltid grunnarbeid i henhold til Norsk Standard og vi har lang erfaring innen faget!",
+      "Vi graver tomtene for deg! Et bra resultat krever godt grunnarbeid. Vi  utfører alltid grunnarbeid i henhold til Norsk Standard og vi har lang erfaring innen faget!",
   },
   {
     image: massetransportImg,

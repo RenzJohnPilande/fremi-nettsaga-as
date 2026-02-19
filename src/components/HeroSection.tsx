@@ -58,7 +58,7 @@ const HeroSection = () => {
                 i === current ? "opacity-100" : "opacity-0 pointer-events-none"
               }`}
             >
-              <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold mb-6 max-w-4xl leading-tight">
+              <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold mb-6 max-w-2xl leading-tight">
                 {slide.title}
               </h1>
               <p className="text-sm md:text-lg max-w-2xl mb-8 tracking-wide opacity-90 uppercase">
@@ -66,7 +66,7 @@ const HeroSection = () => {
               </p>
               <Button
                 size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading text-lg tracking-wide px-8"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading text-base tracking-wide px-8"
                 asChild
               >
                 <a href="#kontakt">Kontakt oss</a>
